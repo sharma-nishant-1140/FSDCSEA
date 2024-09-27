@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        h2{
+            margin-top: 0px;
+        }
+        #container{
+            display: flex;
+            justify-content: baseline;
+            border: 2px solid gray;
+            width: 800px;
+        }
+        img{
+            height: 600px;
+            width: 400px;
+        }
+        hr{
+            height: 1px;
+            width: 400px;
+        }
+        #log{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        input{
+            padding: 10px;
+            margin: 10px;
+            margin-left: 30px;
+            width: 300px;
+        }
+        #buttons{
+            display: flex;
+            justify-content: center;
+        }
+        .button{
+            width: 100px;
+        }
+        #head_branch{
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+        .branch{
+            padding: 0px;
+            margin: 0px;
+        }
+    </style>
+
+    <title>SIGNUP</title>
+</head>
+<body>
+    <div id="container">
+        <img src="images/Untitled design.png" alt="">
+
+        <div id="log">
+            <h2 align="center">SIGNUP</h2>
+            <hr>
+            <div id="name_inputs">
+                <input type="text" name="name" id="name" placeholder="FIRST NAME">
+                <input type="text" name="name" id="name" placeholder="LAST NAME">
+            </div>
+            <input type="email" name="email" id="email" placeholder="ENTER EMAIL">
+            <input type="password" name="pass" id="pass" placeholder="ENTER PASSWORD">
+
+            <label for="branch" id="head_branch">ENTER BRANCH</label>
+            CSE <input type="radio" name="branch" class="branch">
+            CS/IT <input type="radio" name="branch" class="branch">
+            AIML <input type="radio" name="branch" class="branch">
+            ECE <input type="radio" name="branch" class="branch">
+
+            <div id="buttons">
+                <input type="submit" name="SUBMIT" class="button">
+                <input type="reset" name="RESET" class="button">
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

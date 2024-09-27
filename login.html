@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        h2{
+            margin-top: 0px;
+        }
+        #container{
+            display: flex;
+            justify-content: baseline;
+            border: 2px solid gray;
+            width: 800px;
+        }
+        img{
+            height: 400px;
+            width: 400px;
+        }
+        hr{
+            height: 1px;
+            width: 400px;
+        }
+        #log{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        input{
+            padding: 10px;
+            margin: 20px;
+            width: 300px;
+        }
+        #buttons{
+            display: flex;
+            justify-content: center;
+        }
+        .button{
+            width: 100px;
+        }
+    </style>
+
+    <title>LOGIN</title>
+</head>
+<body>
+    <div id="container">
+        <img src="images/Untitled design.png" alt="">
+
+        <div id="log">
+            <h2 align="center">LOGIN</h2>
+            <hr>
+            <input type="email" name="email" id="email" placeholder="ENTER EMAIL">
+            <input type="password" name="pass" id="pass" placeholder="ENTER PASSWORD">
+            <div id="buttons">
+                <input type="submit" name="SUBMIT" id="submit_button" class="button">
+                <input type="reset" name="RESET" id="reset_button" class="button">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
