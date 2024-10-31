@@ -10,7 +10,7 @@ function enter(){
         let check = document.createElement('input');
         check.id = 'c' + i;
         check.type = "checkbox";
-        image.src = "./assignment1_images/Light_Bulb_PNG.png";
+        image.src = "./assignment_1/assignment1_images/Light_Bulb_PNG.png";
         image.setAttribute("width", "100px");
         check.onchange = function(){
             toggle(i);
@@ -25,7 +25,7 @@ function toggle(i)
     let bulb = document.getElementById('b' + i);
     let check = document.getElementById('c' + i);
     if(check.checked)
-        bulb.src = "./assignment1_images/Yellow_Light_Bulb.png";
+        bulb.src = "./assignment_1/assignment1_images/Yellow_Light_Bulb.png";
     else
-        bulb.src = "./assignment1_images/Light_Bulb_PNG.png";
+        bulb.src = "./assignment_1/assignment1_images/Light_Bulb_PNG.png";
 }
