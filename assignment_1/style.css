@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 600px;
+    height: 100px;
+    width: 200px;
+}
+
+hr{
+    width: 100%;
+}
+
+#inp{
+    height: 25px;
+    width: 100px;
+    font-size: 20px;
+}
+
+#button{
+    height: 31px;
+    margin-left: 15px;
+    background-color: rgb(27, 189, 27);
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+}
+
+.result{
+    height: 50vh;
+    width: 1000px;
+}
