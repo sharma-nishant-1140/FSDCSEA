@@ -2,12 +2,12 @@ export let name = "Nishant";
 
 export function Nishant()
 {
-    return "YO YO";
+    return "Hello";
 }
 
-function Nishkarsh_rand()
+function Nishkarsh()
 {
     return Math.random()*1000;
 }
 
-export default Nishkarsh_rand;
+export default Nishkarsh;
