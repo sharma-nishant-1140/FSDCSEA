@@ -1,0 +1,18 @@
+{
+  "name": "httpmodule",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./node_registration/app.js",
+    "dev": "nodemon ./node_registration/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "nodemon": "^3.1.9",
+    "react": "^19.1.0"
+  }
+}

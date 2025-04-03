@@ -7,5 +7,13 @@ fsp.then(() => {
 }).catch((err) => {
     console.log('Error : ' + err);
 }).finally(() => {
+    console.log('ALL RESOURSES ARE FREE !');
+});
 
-})
+async function readFileAsync()
+{
+    const data = await promise.readFile('file.txt');
+    console.log(data.toString());
+}
+
+readFileAsync();
