@@ -1,7 +1,7 @@
 {
   "name": "httpmodule",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./node_registration/express_app.js",
   "scripts": {
     "start": "nodemon ./node_registration/app.js",
     "dev": "nodemon ./node_registration/app.js",
@@ -12,6 +12,8 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
     "nodemon": "^3.1.9",
     "react": "^19.1.0"
   }

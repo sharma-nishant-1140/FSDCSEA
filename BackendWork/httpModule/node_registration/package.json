@@ -1,0 +1,17 @@
+{
+  "name": "node_registration",
+  "version": "1.0.0",
+  "main": "express_app.js",
+  "scripts": {
+    "start": "nodemon ./node_registration/app.js",
+    "dev": "nodemon ./node_registration/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
